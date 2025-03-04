@@ -21,6 +21,10 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.ui.res.painterResource
+import ui.about.AboutScreen
+import ui.home.HomeScreen
+import ui.profile.ProfileScreen
+import ui.settings.SettingsScreen
 
 
 @Composable
@@ -91,23 +95,10 @@ fun AppNavigator() {
     }
 }
 
-@Composable
-fun HomeScreen() {
-    Text("Welcome to Home Screen", modifier = Modifier.padding(16.dp))
-}
 
-@Composable
-fun SettingsScreen() {
-    Text("Settings Page", modifier = Modifier.padding(16.dp))
-}
 
-@Composable
-fun ProfileScreen() {
-    Text("Profile Page", modifier = Modifier.padding(16.dp))
-}
 
-@Composable
-fun AboutScreen() {
-    Text("About Page", modifier = Modifier.padding(16.dp))
-}
+
+
+
 
