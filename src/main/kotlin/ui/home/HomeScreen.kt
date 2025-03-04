@@ -13,7 +13,6 @@ fun HomeScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 32.dp)
     ) {
         Text("Welcome to Home Screen", modifier = Modifier.padding(16.dp))
     }
